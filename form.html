@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Novle services login</h2>
+    <form action="">
+        <label for="username">Username</label> 
+        <input type="text" id= "username" name="username"> <br/> <br/>
+        <label for="password">Password</label> 
+        <input type="password" id="password" name="password"> <br/> <br/>
+        <label for="Cemp">City of Employment</label> &nbsp;&nbsp;
+        <input type="text" id="Cemp" name="Cemp"> <br/> <br/>
+
+        <label for="server">Web server</label>
+        <select name="server" id="server">
+            <option value="apache">Apache</option>
+            <option value="iis">IIS</option>
+            <option value="nginx">NGINX</option>
+            
+        </select> <br/> <br/>
+
+
+        <label >Please specify your role</label><br/> 
+        <input type="radio" id="admin" name="role" value="admin">
+        <label for="admin">Admin</label> <br/> 
+        <input type="radio" id="engineer" name="role" value="engineer">
+        <label for="admin">Engineer</label> <br/> 
+        <input type="radio" id="manager" name="role" value="manager">
+        <label for="admin">Manager</label> <br/> 
+        <input type="radio" id="guest" name="role" value="guest">
+        <label for="admin">Guest</label> <br/> <br/> 
+
+
+
+        <label >Single sign-on to the following</label><br/> 
+        <input type="Checkbox" id="mail" name="mail" value="mail">
+        <label for="mail">Mail</label><br/> 
+        <input type="Checkbox" id="payroll" name="payroll" value="payrole">
+        <label for="payrole">Payrole</label><br/> 
+        <input type="Checkbox" id="self" name="self" value="self">
+        <label for="self">Self-Service</label><br/>  <br/> 
+
+
+        <input type="submit" value="submit" name="submit" id="submit">
+        <input type="reset" value="reset" name="reset" id="reset">
+
+    </form>
+    
+</body>
+</html>
